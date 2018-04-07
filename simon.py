@@ -14,7 +14,6 @@ yellow = LED(26)
 
 lights = []
 
-
 def nextLight():
     lights.append(randint(1, 3))
     return lights[-1]
